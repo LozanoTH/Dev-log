@@ -121,7 +121,6 @@
     const bar = document.createElement('div'); bar.id = 'smb-resilient-bar'; document.documentElement.appendChild(bar);
     const timebox = document.createElement('div'); timebox.id = 'smb-resilient-time'; document.documentElement.appendChild(timebox);
     const banner = document.createElement('div'); banner.id = 'smb-offline-banner'; banner.textContent = '⚠️ Sin conexión — mostrando copia guardada/local'; document.documentElement.appendChild(banner);
-    // const btn = document.createElement('button'); btn.id = 'smb-protector-ui'; btn.textContent = '🚨 Protector'; document.documentElement.appendChild(btn);
     const info = document.createElement('div'); info.id = 'smb-protector-info'; info.textContent = 'Protector: limita rAF, pausa animaciones, fuerza WebGL low-power.'; document.documentElement.appendChild(info);
 
   });
