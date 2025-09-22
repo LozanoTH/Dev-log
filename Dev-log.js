@@ -124,11 +124,6 @@
     const btn = document.createElement('button'); btn.id = 'smb-protector-ui'; btn.textContent = '🚨 Protector'; document.documentElement.appendChild(btn);
     const info = document.createElement('div'); info.id = 'smb-protector-info'; info.textContent = 'Protector: limita rAF, pausa animaciones, fuerza WebGL low-power.'; document.documentElement.appendChild(info);
 
-    btn.addEventListener('click', () => {
-      PROTECTOR.toggleManual();
-      btn.textContent = PROTECTOR.enabled ? '🟢 Protector ON' : ' 👁️ ';
-      info.style.display = PROTECTOR.enabled ? 'block' : 'none';
-    });
   });
 
   const barEl = () => document.getElementById('smb-resilient-bar');
